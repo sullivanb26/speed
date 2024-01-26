@@ -1,1 +1,2 @@
-alert("hello!")
+/// hello.js
+alert("hello!");
