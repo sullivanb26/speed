@@ -2,6 +2,7 @@
 var said = false;
 if (said==false) {
   alert("Ran");
+  said = true;
 }
 addEventListener("DOMContentLoaded", (event) => { 
   var btn = document.createElement("BUTTON");
