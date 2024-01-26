@@ -1,4 +1,8 @@
 /// hello.js
+var said = false;
+if (said==false) {
+  alert("Ran");
+}
 addEventListener("DOMContentLoaded", (event) => { 
   var btn = document.createElement("BUTTON");
   btn.innerHTML = "Run!";
